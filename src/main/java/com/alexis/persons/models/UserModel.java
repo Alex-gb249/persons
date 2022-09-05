@@ -3,8 +3,8 @@ package com.alexis.persons.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "usuarios")
-public class UsuarioModel {
+@Table(name = "users")
+public class UserModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
